@@ -17,6 +17,7 @@ class Conta:
     def saca(self, valor):
         self.__saldo -= valor
 
-    def transfere(self, valor, origem, destino):
-        origem.saca(valor)
+    def transfere(self, valor, destino): #Se colocar o __ antes do método pode criar um método privado como __transfere  por exemplo
+        #Encapsulamento
+        self.saca(valor) #Como a origem acessa o mesmo endereço do self pois é o objeto que chama a função, entçao vou tirar p parâmetro origem da função e para chamar o método saca vou usar o self
         destino.deposita(valor)

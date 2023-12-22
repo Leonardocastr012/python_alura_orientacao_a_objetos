@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="13fc067b-9ac3-4f68-ae89-787f6c786fba" name="Changes" comment="">
+    <list default="true" id="13fc067b-9ac3-4f68-ae89-787f6c786fba" name="Changes" comment="I finishd the">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/conta.py" beforeDir="false" afterPath="$PROJECT_DIR$/conta.py" afterDir="false" />
     </list>
@@ -84,7 +84,8 @@
       <workItem from="1703081305628" duration="2334000" />
       <workItem from="1703085390661" duration="5000" />
       <workItem from="1703092081287" duration="2264000" />
-      <workItem from="1703190698637" duration="2230000" />
+      <workItem from="1703190698637" duration="3367000" />
+      <workItem from="1703215338521" duration="687000" />
     </task>
     <task id="LOCAL-00001" summary="I added new functionalities for the code">
       <option name="closed" value="true" />
@@ -118,7 +119,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703095876425</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="I tested somethings">
+      <option name="closed" value="true" />
+      <created>1703195552785</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1703195552785</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,7 +149,8 @@
     <MESSAGE value="I learned about class and objects and I created the code conta.py" />
     <MESSAGE value="I learned about methods, garbage collector and the use the None" />
     <MESSAGE value="I did the opcional exercise that you create a formatted date" />
-    <option name="LAST_COMMIT_MESSAGE" value="I did the opcional exercise that you create a formatted date" />
+    <MESSAGE value="I tested somethings" />
+    <option name="LAST_COMMIT_MESSAGE" value="I tested somethings" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/python_alura_orientacao_a_objetos$main_datas.coverage" NAME="main_datas Coverage Results" MODIFIED="1703095547589" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
