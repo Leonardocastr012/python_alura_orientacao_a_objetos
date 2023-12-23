@@ -14,9 +14,13 @@ class Conta:
     def deposita(self, valor):
         self.__saldo += valor
 
+    def __pode_sacar(self, valor_a_sacar): # Método privado foi feito para ser usado apenas dentro dessa classe
+        valor_disponivel_a_sacar = self.__saldo + self.__limite
+        return valor_a_sacar <=  valor_disponivel_a_sacar
+
     def saca(self, valor):
         # verificação
-        if valor <= (self.__saldo + self.__limite):
+        if self.__pode_sacar(valor):
             self.__saldo -= valor
         else:
             print(f'O valor R${valor:.2f} passou o limite')
