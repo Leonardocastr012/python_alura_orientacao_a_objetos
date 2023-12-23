@@ -15,7 +15,11 @@ class Conta:
         self.__saldo += valor
 
     def saca(self, valor):
-        self.__saldo -= valor
+        # verificação
+        if valor <= (self.__saldo + self.__limite):
+            self.__saldo -= valor
+        else:
+            print(f'O valor R${valor:.2f} passou o limite')
 
     def transfere(self, valor, destino): #Se colocar o __ antes do método pode criar um método privado como __transfere  por exemplo
         #Encapsulamento
