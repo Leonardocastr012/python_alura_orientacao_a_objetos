@@ -1,11 +1,13 @@
 class Conta:
-    def __init__(self,numero, titular, saldo, limite): #função construtora/posso passar um parâmetro opcional também para esses parâmetros
+    def __init__(self,numero, titular, saldo, limite, codigo_banco): #função construtora/posso passar um parâmetro opcional também para esses parâmetros
         print(f'Construindo objeto...{self}')#Self é a referência que onde encontrar o objeto, vai ser caminho para ir para cada objeto e forma distinta
         # Abributos
         self.__numero = numero #colocando esses dois underscore o atributo fica privado é equivalente ao private no java porém tem que alterar em todos os métodos pois agora faz parte do nome da variável
         self.__titular = titular #poded chamar usando por exemplo conta._Conta__saldo (<objeto>._<classe>__<atributo>) e fica oculto na recomendação
         self.__saldo = saldo
         self.__limite = limite
+        self.__codigo_banco = codigo_banco
+
     #Criando métodos
     def extrato(self):
         print(f'Titular: {self.__titular}')
@@ -45,3 +47,11 @@ class Conta:
     #Setters - nunca retorna, só altera os elementos
     def limite(self, limite):
         self.__limite = limite
+
+    @staticmethod
+    def codigo_banco(): #Método estático são da classe e não tem objeto, como o próprio nome já diz tem o valor estático e nenhum objeto influência nele
+        return '001'
+
+    @staticmethod
+    def codigos_bancos():
+        return {'BB': '001', 'Caixa': '104', 'Bradesco': '237'}
