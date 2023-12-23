@@ -21,3 +21,17 @@ class Conta:
         #Encapsulamento
         self.saca(valor) #Como a origem acessa o mesmo endereço do self pois é o objeto que chama a função, entçao vou tirar p parâmetro origem da função e para chamar o método saca vou usar o self
         destino.deposita(valor)
+
+    #Método para retornar os atributos agora privados/Getters- sempre retorna
+    def get_saldo(self):
+        return self.__saldo
+
+    def get_titular(self):
+        return self.__titular
+
+    def get_limite(self):
+        return self.__limite
+
+    #Setters - nunca retorna, só altera os elementos
+    def set_limite(self, limite):
+        self.__limite = limite
