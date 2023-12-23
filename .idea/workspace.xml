@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="13fc067b-9ac3-4f68-ae89-787f6c786fba" name="Changes" comment="I finishd the">
+    <list default="true" id="13fc067b-9ac3-4f68-ae89-787f6c786fba" name="Changes" comment="I finished the code that a learned about getters and setters">
+      <change afterPath="$PROJECT_DIR$/cliente.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/conta.py" beforeDir="false" afterPath="$PROJECT_DIR$/conta.py" afterDir="false" />
     </list>
@@ -85,7 +86,8 @@
       <workItem from="1703085390661" duration="5000" />
       <workItem from="1703092081287" duration="2264000" />
       <workItem from="1703190698637" duration="3367000" />
-      <workItem from="1703215338521" duration="687000" />
+      <workItem from="1703215338521" duration="786000" />
+      <workItem from="1703285118060" duration="3853000" />
     </task>
     <task id="LOCAL-00001" summary="I added new functionalities for the code">
       <option name="closed" value="true" />
@@ -127,7 +129,23 @@
       <option name="project" value="LOCAL" />
       <updated>1703195552785</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="I finished the code using the encapsulation">
+      <option name="closed" value="true" />
+      <created>1703216089931</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1703216089931</updated>
+    </task>
+    <task id="LOCAL-00007" summary="I finished the code that a learned about getters and setters">
+      <option name="closed" value="true" />
+      <created>1703299684723</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1703299684723</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,7 +168,9 @@
     <MESSAGE value="I learned about methods, garbage collector and the use the None" />
     <MESSAGE value="I did the opcional exercise that you create a formatted date" />
     <MESSAGE value="I tested somethings" />
-    <option name="LAST_COMMIT_MESSAGE" value="I tested somethings" />
+    <MESSAGE value="I finished the code using the encapsulation" />
+    <MESSAGE value="I finished the code that a learned about getters and setters" />
+    <option name="LAST_COMMIT_MESSAGE" value="I finished the code that a learned about getters and setters" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/python_alura_orientacao_a_objetos$main_datas.coverage" NAME="main_datas Coverage Results" MODIFIED="1703095547589" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

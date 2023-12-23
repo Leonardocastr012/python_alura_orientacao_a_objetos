@@ -29,9 +29,11 @@ class Conta:
     def get_titular(self):
         return self.__titular
 
-    def get_limite(self):
+    @property
+    def limite(self):
         return self.__limite
 
+    @limite.setter
     #Setters - nunca retorna, só altera os elementos
-    def set_limite(self, limite):
+    def limite(self, limite):
         self.__limite = limite
