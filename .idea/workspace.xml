@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="13fc067b-9ac3-4f68-ae89-787f6c786fba" name="Changes" comment="I finished the code that a learned about getters and setters">
-      <change afterPath="$PROJECT_DIR$/cliente.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conta.py" beforeDir="false" afterPath="$PROJECT_DIR$/conta.py" afterDir="false" />
-    </list>
+    <list default="true" id="13fc067b-9ac3-4f68-ae89-787f6c786fba" name="Changes" comment="Update README.md" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -145,7 +141,23 @@
       <option name="project" value="LOCAL" />
       <updated>1703299684723</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="I finished the module about properties, setters and getters">
+      <option name="closed" value="true" />
+      <created>1703299913534</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1703299913534</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Update README.md">
+      <option name="closed" value="true" />
+      <created>1703300437972</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1703300437972</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,7 +182,9 @@
     <MESSAGE value="I tested somethings" />
     <MESSAGE value="I finished the code using the encapsulation" />
     <MESSAGE value="I finished the code that a learned about getters and setters" />
-    <option name="LAST_COMMIT_MESSAGE" value="I finished the code that a learned about getters and setters" />
+    <MESSAGE value="I finished the module about properties, setters and getters" />
+    <MESSAGE value="Update README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update README.md" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/python_alura_orientacao_a_objetos$main_datas.coverage" NAME="main_datas Coverage Results" MODIFIED="1703095547589" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
