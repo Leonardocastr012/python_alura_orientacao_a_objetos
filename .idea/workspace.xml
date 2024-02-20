@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="13fc067b-9ac3-4f68-ae89-787f6c786fba" name="Changes" comment="I finished the code using static methods">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="13fc067b-9ac3-4f68-ae89-787f6c786fba" name="Changes" comment="I finished the code using static methods" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -88,6 +86,7 @@
       <workItem from="1703285118060" duration="3943000" />
       <workItem from="1703368752685" duration="4029000" />
       <workItem from="1704318745120" duration="37000" />
+      <workItem from="1704319065492" duration="2000" />
     </task>
     <task id="LOCAL-00001" summary="I added new functionalities for the code">
       <option name="closed" value="true" />
